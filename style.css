@@ -1,0 +1,183 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: Helvetica;
+  color: seashell;
+}
+
+a {
+  color: seashell;
+}
+
+.hdr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  padding: 6px;
+  border-bottom: 2px solid seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+.hdrlink {
+  font-size: 22px;
+}
+.hdrlink + .hdrlink {
+  margin-left: 20px;
+}
+.hdrlogo {
+  display: block;
+  height: 50px;
+}
+.prjbdy {
+  margin-top: 70px;
+}
+.prjbdymission {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 1200px;
+  height: 700px;
+  background-image: url('../resources/images/img-mission-background.jpg');
+  background-size: cover;
+}
+.prjbdyshop {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+.mcontent {
+  width: 1240px;
+  height: 103px;
+  background-color: black;
+  text-align: center;
+}
+.mcontenttitle {
+  padding: 5px 25px 25px 25px ;
+  text-align: center;
+  font-size: 33px;
+  font-weight: bold;
+  opacity: 0.9;
+}
+.mcontentstmnt {
+  text-align: center;
+  font-size: 21px;
+  font-weight: bold;
+  opacity: 0.9;
+}
+.shchoice {
+  text-align: center;
+  width: 1000px;
+  margin: auto;
+}
+.shchoicetitle {
+  font-size: 33px;
+  font-weight: bold;
+  padding: 10px;
+  opacity: 0.9;
+}
+.shchoicestmnt {
+  font-size: 22px;
+  font-weight: bold;
+  padding: 10px;
+  opacity: 0.9;
+}
+.shoffer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+.shofferpicture img {
+  height: 200px;
+  width: 300px;
+  display: block;
+}
+.shofferpicture + .shofferpicture {
+  margin-left: 25px;
+}
+.shofferpicture {
+  margin-bottom: 15px;
+}
+.shofferpicturecap {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  opacity: 0.9;
+}
+.prjbdy_places {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  background-image: url('../resources/images/img-locations-background.jpg');
+  background-repeat: no-repeat;
+}
+.plocations_title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  opacity: 0.9;
+}
+.plocations_locations {
+  display: flex;
+  margin-top: 15px;
+}
+.shopat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  text-align: center;
+}
+.shopat_hdr {
+  font-size: 24px;
+  font-weight: bold;
+}
+.shopat_add {
+  font-size: 18px;
+  line-height: 50px;
+}
+.shopat + .shopat {
+  margin-left: 40px;
+}
+.footer {
+  padding: 20px 0;
+  font-size: 18px;
+  text-align: center;
+}
+.ftr_shop_name {
+  font-size: 24px;
+  font-weight: bold;
+}
+.ftr_email {
+  display: block;
+  margin-top: 30px;
+}
+.ftr_phone {
+  margin-top: 30px;
+}
